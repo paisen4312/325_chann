@@ -23,9 +23,9 @@ $(function () {
             slideCount = $slides.length, // スライドの点数
             indicatorHTML = '',          // インジケーターのコンテンツ
             currentIndex = 0,            // 現在のスライドのインデックス
-            duration = 1000,              // 次のスライドへのアニメーションの所要時間
+            duration = 1500,              // 次のスライドへのアニメーションの所要時間
             easing = 'easeInOutExpo',    // 次のスライドへのアニメーションのイージングの種類
-            interval = 4000,             // 自動で次のスライドに移るまでの時間
+            interval = 6000,             // 自動で次のスライドに移るまでの時間
             timer;                       // タイマーの入れ物
 
 
